@@ -1,0 +1,31 @@
+{
+  "name": "chat-app-socketio",
+  "version": "1.0.0",
+  "description": "Chat App com socket.io",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrecintra/chat-app-socketio.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Andre Cintra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrecintra/chat-app-socketio/issues"
+  },
+  "homepage": "https://github.com/andrecintra/chat-app-socketio#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "socket.io": "2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
